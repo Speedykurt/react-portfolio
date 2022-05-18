@@ -1,0 +1,154 @@
+.navlogo {
+  height: 150px;
+  z-index: 1;
+  margin-top: 3px;
+}
+
+.boxheading {
+  height: 80px;
+  margin-top: 25px;
+  position: relative;
+  right: -460px;
+}
+
+.btn {
+  background-color: #ff7f11;
+  border: #ff7f11;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #ff7f11;
+  border: #ff7f11;
+  transform: scale(1.1);
+}
+
+.heroimg {
+  max-width: 100%;
+}
+
+.center-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  justify-content: center;
+  align-items: center;
+
+  font-family: "roboto", cursive;
+  font-size: 25px;
+}
+
+.app {
+    overflow: hidden;
+}
+
+.card {
+  box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+  background: #0f8b8d;
+  margin: 50px;
+}
+
+.card-img-top {
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.navbar {
+  height: 130px;
+  background-color: #0f8b8d !important;
+}
+
+.html {
+  margin: none !important;
+}
+
+.mainbg {
+  background: url(./mainbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  position: initial;
+}
+
+
+.bio p {
+    text-shadow: 2px 2px 2px #CECECE;
+    font-size:24px;
+    background:#D7EBBA;
+    position: relative;
+    color:black;
+    top: -100px;
+    padding:50px;
+    box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+}
+
+.backerbox {
+  position: absolute;
+
+  /*
+    background: rgb(57, 59, 65);
+    background: linear-gradient(
+      90deg,
+      rgba(57, 59, 65, 1) 35%,
+      rgba(0, 0, 4, 0.7234244039412641) 100%,
+      rgba(0, 212, 255, 1) 100%
+    );*/
+  top: 38%;
+  height: 400px;
+  left: 5%;
+}
+
+.textbox {
+  background: url(name.png);
+  height: 265px;
+  width: 1350px;
+  border-radius: 10px;
+}
+
+.textbox h2 {
+  padding: 30px 30px 0 30px;
+  font-size: 62px;
+  font-family: "roboto", cursive;
+}
+.textbox p {
+  padding: 30px 30px 0 30px;
+}
+
+body {
+  background: url(patternbg.png);
+}
+
+.bgcolor {
+  background: rgba(15, 139, 141, 0.9);
+}
+
+.callouttext {
+  padding: 15px;
+  color: black;
+  font-size: 20px;
+  font-family: "Bebas Neue", cursive;
+  background: white;
+}
+
+.calloutimg {
+  height: 250px;
+  overflow: hidden;
+}
+
+.blogbox {
+  padding: 35px;
+}
+
+.mebg {
+  height: 300%;
+  margin-left: 50vw;; 
+  
+}
